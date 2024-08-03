@@ -22,16 +22,34 @@ This project is a traffic tracking system that detects and counts cars in a vide
    ```
 
 2.Create virtual environment
+
+```sh
 python -m venv venv
-source venv/bin/activate # On Windows use `venv\Scripts\activate`
+source venv/bin/activate
+```
+
+# On Windows use `venv\Scripts\activate`
 
 3.Install required packages
+
+```sh
+
 pip install -r requirements.txt
+
+```
 
 ## Running program
 
+```sh
+
 python TrackingTraffic.py
+
+```
 
 ## Testing program
 
-pytest test_car_counter.py // python -m pytest
+```sh
+
+pytest test_car_counter.py OR python -m pytest
+
+```

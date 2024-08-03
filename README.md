@@ -51,6 +51,8 @@ python TrackingTraffic.py
 
 ```sh
 
-pytest test_car_counter.py OR python -m pytest
+pytest test_car_counter.py
+OR
+python -m pytest
 
 ```

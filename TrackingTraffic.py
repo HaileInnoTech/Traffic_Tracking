@@ -17,6 +17,7 @@ while True:
     mask = object_detector.apply(roi)
     _, mask = cv2.threshold( mask, 200,255, cv2.THRESH_BINARY)
     contours, _ = cv2.findContours(mask, cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+    
     detections = []
     frame = cv2.polylines(frame,[pts],isClosed=True,color=(255,0,0), thickness=2)
 
@@ -45,6 +46,7 @@ while True:
     cv2.imshow("Mask Video", mask)
     cv2.imshow("Video", frame)
     cv2.imshow("Roi", roi)
+
     key = cv2.waitKey(30)
     if key == ord('q'):
         break

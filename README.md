@@ -21,16 +21,16 @@ This project is a traffic tracking system that detects and counts cars in a vide
    cd traffic-tracking
    ```
 
-2.Create virtual environment
+2.Create virtual environment:
 
 ```sh
 python -m venv venv
 source venv/bin/activate
 ```
 
-### On Windows use `venv\Scripts\activate`
+#### On Windows use `venv\Scripts\activate`
 
-3.Install required packages
+3.Install required packages:
 
 ```sh
 

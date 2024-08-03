@@ -47,12 +47,22 @@ python TrackingTraffic.py
 
 ```
 
-## Testing program
+## Testing all function
 
 ```sh
 
-pytest test_car_counter.py
+pytest
 OR
 python -m pytest
+
+```
+
+## Testing a function
+
+```sh
+
+pytest -s -vv test_car_counter.py
+OR
+python -m pytest  -s -vv test_car_counter.py
 
 ```

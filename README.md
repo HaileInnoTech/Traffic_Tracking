@@ -61,8 +61,8 @@ python -m pytest
 
 ```sh
 
-pytest -s -vv test_car_counter.py
+pytest -s -vv test_car_counter_originalMutated
 OR
-python -m pytest  -s -vv test_car_counter.py
+python -m pytest  -s -vv test_car_counter_originalMutated
 
 ```

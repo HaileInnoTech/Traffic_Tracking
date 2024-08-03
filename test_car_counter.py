@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import pytest
 from tracker import EuclideanDistTracker
-from TrackingTrafficModule import process_frame  # Make sure to replace 'your_module' with the actual module name
+from TrackingTrafficModule import process_frame  
 
 @pytest.fixture
 def setup():

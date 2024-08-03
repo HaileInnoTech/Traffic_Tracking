@@ -15,7 +15,7 @@ This project is a traffic tracking system that detects and counts cars in a vide
 
 ## Installation
 
-1. Clone the repository:
+1.Clone the repository:
 
 ```sh
 git clone https://github.com/HaileInnoTech/Traffic_Tracking.git
